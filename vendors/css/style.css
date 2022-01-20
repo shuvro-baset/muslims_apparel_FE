@@ -42,6 +42,12 @@ body{
     font-family: 'Comic Neue', cursive;
     font-weight: 700;
 }
+.title2{
+    font-size: 25px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+    color: #2A2A65;
+}
 .service-div{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 5px;
@@ -52,5 +58,29 @@ body{
     font-size: 35px;
     /* padding: 10px; */
 }
+
+
+.product-title{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    padding: 10px 20px;
+    font-size: clamp(26px, 3vw, 40px);
+    font-weight: 700;
+    font-family: 'Dongle', sans-serif;
+    color: #2A2A65;
+
+}
+.product-div{
+    background-color: #fff;
+    border: 1px solid #e6e6e7;
+    border-radius: 5px;
+}
 /* #EFEFEF */
 /* #2A2A65 */
+
+/* @media (max-width: 575px) { 
+    .product-div{
+        width: 50%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+ } */
