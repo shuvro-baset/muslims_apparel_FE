@@ -6,7 +6,23 @@ body{
     
     background-color: #EFEFEF;
 }
-
+.nav-bg{
+    background-color: #2A2A65;
+    color: #fff;
+    font-family: 'Dongle', sans-serif;
+    padding: 3px 10px;
+    margin: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 22px;
+}
+.heading-text{
+    color: #2A2A65;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+    font-size: 25px;
+}
 .banner-div{
     background-image: linear-gradient(rgba(0, 22, 39, 0.51), rgba(0, 28, 51, 0.51)), 
                         url('../../images/banner.jpg');
@@ -21,5 +37,20 @@ body{
     width: 180px;
     border-radius: 50%;
 }
-
+.title1{
+    font-size: 50px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+}
+.service-div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.service-icon{
+    color: #2A2A65;
+    font-size: 35px;
+    /* padding: 10px; */
+}
 /* #EFEFEF */
+/* #2A2A65 */
