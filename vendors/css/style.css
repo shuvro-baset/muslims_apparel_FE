@@ -7,7 +7,15 @@ body{
     background-color: #EFEFEF;
 }
 
-
+.banner-div{
+    background-image: linear-gradient(rgba(0, 22, 39, 0.51), rgba(0, 28, 51, 0.51)), 
+                        url('../../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    color: #fff;
+}
 .banner-img{
     height: 180px;
     width: 180px;
