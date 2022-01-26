@@ -77,10 +77,25 @@ body{
 /* #EFEFEF */
 /* #2A2A65 */
 
-/* @media (max-width: 575px) { 
-    .product-div{
-        width: 50%;
-        flex-direction: row;
-        flex-wrap: wrap;
+
+
+.custom-row{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.product-div img{
+    height: 250px;
+}
+@media (max-width: 575px) { 
+    .custom-row{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
     }
- } */
+    .product-div img{
+        height: 180px;
+    }
+ }
