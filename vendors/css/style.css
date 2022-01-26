@@ -86,7 +86,8 @@ body{
     grid-gap: 10px;
 }
 .product-div img{
-    height: 250px;
+    height: 280px;
+    width: 250px;
 }
 @media (max-width: 575px) { 
     .custom-row{
@@ -96,6 +97,7 @@ body{
         grid-gap: 10px;
     }
     .product-div img{
-        height: 180px;
+        height: 150px;
+        width: 120px;
     }
  }
