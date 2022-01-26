@@ -25,7 +25,7 @@ body{
 }
 .banner-div{
     background-image: linear-gradient(rgba(0, 22, 39, 0.51), rgba(0, 28, 51, 0.51)), 
-                        url('../../images/banner.jpg');
+                        url('../../images/cv.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -87,7 +87,7 @@ body{
 }
 .product-div img{
     height: 280px;
-    width: 260px;
+    width: 250px;
 }
 @media (max-width: 575px) { 
     .custom-row{
@@ -98,6 +98,6 @@ body{
     }
     .product-div img{
         height: 150px;
-        width: 130px;
+        width: 120px;
     }
  }
