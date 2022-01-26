@@ -87,7 +87,7 @@ body{
 }
 .product-div img{
     height: 280px;
-    width: 250px;
+    width: 260px;
 }
 @media (max-width: 575px) { 
     .custom-row{
@@ -98,6 +98,6 @@ body{
     }
     .product-div img{
         height: 150px;
-        width: 120px;
+        width: 130px;
     }
  }
