@@ -115,7 +115,20 @@ body{
     background-color: #fff;
     color: #2A2A65;
 }
-
+.social-icon a{
+    font-size: 200%;
+    color: rgb(58, 4, 250);
+}
+.social-icon a:hover{
+    color: rgb(252, 252, 253);
+}
+.footer-text p{
+    margin: 0;
+    padding: 0;
+    columns: #f4f4f4;
+    font-weight: 300;
+    font-size: 12px;
+}
 @media (max-width: 575px) { 
     .custom-row{
         width: 100%;

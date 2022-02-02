@@ -19,49 +19,49 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-white">
-        <div class="container bg-white">
-            <img class="img-fluid" style="width: 50px; height: 50px; border-radius: 50%;" src="images/logo/logo.png" alt="">
-          <a class="navbar-brand bg-white heading-text" href="#">Muslims Apparel</a>
-          <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse bg-white" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 bg-white">
-              <li class="nav-item">
-                <a class=" nav-bg" aria-current="page" href="#">Home</a>
-              </li>
-              
-              <li class="nav-item dropdown">
-                <a class="nav-bg dropdown-toggle nav-bg" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  All Products
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="{% url 'product' %}?category=KHILMAR">KHIMAR</a>
-                  <a class="dropdown-item" href="{% url 'product' %}?category=JILBAB">JILBAB</a>
-                  <a class="dropdown-item" href="{% url 'product' %}?category=ABAYA/BORKA">ABAYA/BORKA</a>
-                  <a class="dropdown-item" href="{% url 'product' %}?category=LINEN">LINEN</a>
-                  <a class="dropdown-item" href="{% url 'product' %}?category=COTTON">COTTON</a>
-                  <a class="dropdown-item" href="{% url 'product' %}?category=CAPE">CAPE</a>
-                  <a class="dropdown-item" href="{% url 'product' %}?category=NIQAB">NIQAB</a>
-                  <a class="dropdown-item" href="{% url 'product' %}?category=HAND GLOVES & SOCKS">HAND GLOVES &
-                      SOCKS</a>
-                  <a class="dropdown-item" href="{% url 'product' %}?category=SUNNAH ITEM">SUNNAH ITEM</a>
-                  <a class="dropdown-item" href="{% url 'product' %}?category=ORGANIC FOOD">ORGANIC FOOD</a>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class=" nav-bg" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class=" nav-bg" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-bg" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
+      <div class="container bg-white">
+          <img class="img-fluid" style="width: 50px; height: 50px; border-radius: 50%;" src="images/logo/logo.png" alt="">
+        <a class="navbar-brand heading-text" href="#">Muslims Apparel</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 bg-white">
+            <li class="nav-item">
+              <a class=" nav-bg" aria-current="page" href="#">Home</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-bg dropdown-toggle nav-bg" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                All Products
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="{% url 'product' %}?category=KHILMAR">KHIMAR</a>
+                <a class="dropdown-item" href="{% url 'product' %}?category=JILBAB">JILBAB</a>
+                <a class="dropdown-item" href="{% url 'product' %}?category=ABAYA/BORKA">ABAYA/BORKA</a>
+                <a class="dropdown-item" href="{% url 'product' %}?category=LINEN">LINEN</a>
+                <a class="dropdown-item" href="{% url 'product' %}?category=COTTON">COTTON</a>
+                <a class="dropdown-item" href="{% url 'product' %}?category=CAPE">CAPE</a>
+                <a class="dropdown-item" href="{% url 'product' %}?category=NIQAB">NIQAB</a>
+                <a class="dropdown-item" href="{% url 'product' %}?category=HAND GLOVES & SOCKS">HAND GLOVES &
+                    SOCKS</a>
+                <a class="dropdown-item" href="{% url 'product' %}?category=SUNNAH ITEM">SUNNAH ITEM</a>
+                <a class="dropdown-item" href="{% url 'product' %}?category=ORGANIC FOOD">ORGANIC FOOD</a>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class=" nav-bg" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class=" nav-bg" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-bg" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
 
 
@@ -89,8 +89,6 @@
             <h5 class="font-weight-bold mt-3 text-uppercase">CASH ON DELIVERY</h5>
             <p class="text-capitalize">CASH ON DELIVERY INSIDE DHAKA CITY CORPORATION</p>
           </div>
-              <!--end of Service=-->
-              <!--Single Service-->
           <div class="mx-auto col-md-6 col-lg-3 my-3 text-center service-div">
             <span class="service-icon ">
               <i class="fas fa-headset fa-2x pt-4"></i>
@@ -98,8 +96,6 @@
             <h5 class="font-weight-bold mt-3 text-uppercase">CUSTOMER SERVICE</h5>
             <p class="text-capitalize">24/7 DEDICATED CUSTOMER SERVICE AGENT</p>
           </div>
-              <!--end of Service=-->
-              <!--Single Service-->
           <div class="mx-auto col-md-6 col-lg-3 my-3 text-center service-div">
             <span class="service-icon ">
               <i class="fas fa-shield-alt fa-2x pt-4"></i>
@@ -134,6 +130,7 @@
               </div>
             </div>
           </div>
+          
           <div class="my-3 text-center">
             <div class=" product-div">
               <div>
@@ -345,12 +342,25 @@
           </div>
         </div>
         <div class="row d-flex justify-content-center">
-          <div class="col-lg-8 d-flex justify-content-around my-3 footer-menu wrap">
+          <div class="col-lg-8 d-flex justify-content-around my-3 footer-menu">
             <a href="">Home</a>
             <a href="">Services</a>
             <a href="">About</a>
             <a href="">Products</a>
           </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8 d-flex justify-content-evenly my-3 social-icon">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="row text-center footer-text">
+          <p>Copyright 2021 © Muslims Apparel</p>
+          <p>Design & Developed By <a href="https://www.facebook.com/atiq.ea">Atiq</a> &  <a href="https://www.linkedin.com/in/shuvro-baset/">Baset</a> </p>
         </div>
       </div>
 
