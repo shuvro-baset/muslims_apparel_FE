@@ -89,6 +89,33 @@ body{
     height: 280px;
     width: 250px;
 }
+
+.about-head{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    padding: 10px 20px;
+    font-size: clamp(26px, 3vw, 40px);
+    font-weight: 700;
+    font-family: 'Dongle', sans-serif;
+    color: #2A2A65;
+}
+
+.footer-bg{
+    background-color: #010130;
+    color: #fff;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid rgb(172, 170, 170);
+    border-radius: 3px;
+}
+.footer-menu a:hover{
+    background-color: #fff;
+    color: #2A2A65;
+}
+
 @media (max-width: 575px) { 
     .custom-row{
         width: 100%;
